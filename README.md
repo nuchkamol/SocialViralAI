@@ -28,7 +28,7 @@ This helps identify trending content faster.
 
 ## 📸 Screenshots
 
-!\[Home](images/home.png)
+!\[Home](./images/home.png)
 
 ## ⚠️ Note
 
