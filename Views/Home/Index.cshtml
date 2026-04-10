@@ -1,0 +1,71 @@
+﻿@model List<SocialViralAI.Models.Video>
+<link rel="stylesheet" href="css/main.css">
+<h2>Videos</h2>
+
+<form method="get" asp-action="Index">
+    <div style="display:flex; gap:10px; margin-bottom:20px;">
+
+        <input type="text" name="keyword" placeholder="ค้นหา เช่น ข่าว"
+               value="@ViewBag.Keyword"
+               style="padding:8px; width:200px;" />
+
+        <input type="number" name="maxResults" placeholder="จำนวน"
+               value="@ViewBag.MaxResults"
+               style="padding:8px; width:100px;" />
+
+        <button type="submit" style="padding:8px 15px;">
+            🔍 Search
+        </button>
+
+    </div>
+</form>
+
+@if (ViewBag.Top != null)
+{
+    <h3>🔥 Top Video</h3>
+
+    <iframe width="600" height="350"
+            src="https://www.youtube.com/embed/@ViewBag.Top.VideoId"
+            frameborder="0"
+            allowfullscreen>
+    </iframe>
+}
+
+<div style="display:flex; flex-wrap:wrap; gap:20px;">
+
+    <div class="grid">
+
+        @foreach (var v in Model)
+        {
+            <div class="card">
+
+                <iframe class="thumbnail"
+                        src="https://www.youtube.com/embed/@v.VideoId"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+
+                <div class="title">@v.Title</div>
+
+                <div class="views">
+                    @v.Views views
+
+                    @if (v.Views == ViewBag.MaxViews)
+                    {
+                        <span class="badge">🔥 Viral</span>
+                    }
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+<h2>AI Insight</h2>
+
+<div style="background:#111; color:#0f0; padding:20px; border-radius:10px;">
+    <pre style="white-space:pre-wrap;">
+    <pre>@Html.Raw(ViewBag.Insight)</pre>
+    </pre>
+</div>

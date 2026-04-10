@@ -1,0 +1,53 @@
+﻿.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 160px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 8px 0;
+    min-height: 40px; /* 🔥 บังคับให้สูงเท่ากัน */
+}
+
+.views {
+    color: gray;
+    font-size: 13px;
+}
+
+.badge {
+    color: red;
+    font-size: 12px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+.wrapper {
+    max-width: 1600px;
+    margin: auto;
+}
+.container-fluid {
+    width: 100%;
+}
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}

@@ -1,0 +1,66 @@
+﻿@model List<SocialViralAI.Models.Video>
+<link rel="stylesheet" href="~/css/short.css" />
+<form method="get" asp-action="Short">
+    <div style="display:flex; gap:10px; margin-bottom:20px;">
+
+        <input type="text" name="keyword" placeholder="ค้นหา เช่น ข่าว"
+               value="@ViewBag.Keyword"
+               style="padding:8px; width:200px;" />
+
+        <input type="number" name="maxResults" placeholder="จำนวน"
+               value="@ViewBag.MaxResults"
+               style="padding:8px; width:100px;" />
+
+        <button type="submit" style="padding:8px 15px;">
+            🔍 Search
+        </button>
+
+    </div>
+</form>
+
+<div class="video-grid">
+
+    @foreach (var v in Model)
+    {
+        <div class="video-card">
+
+            <iframe src="https://www.youtube.com/embed/@v.VideoId"
+                    allowfullscreen>
+            </iframe>
+
+            <div class="video-info">
+                <div class="title">@v.Title</div>
+                <div class="views">@v.Views views</div>
+                <div class="score">🔥 @v.ViralScore</div>
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<!-- AI Insight -->
+<div class="ai-float">
+    🤖 AI Insight <br />
+    @Html.Raw(ViewBag.Insight)
+</div>
+
+<script>
+    const items = document.querySelectorAll('.short-item iframe');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const iframe = entry.target;
+
+            if (entry.isIntersecting) {
+                if (!iframe.src) {
+                    iframe.src = iframe.dataset.src;
+                }
+            } else {
+                iframe.src = "";
+            }
+        });
+    }, { threshold: 0.8 });
+
+    items.forEach(el => observer.observe(el));
+</script>
