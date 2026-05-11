@@ -88,21 +88,22 @@ namespace SocialViralAI.Services
                 keyword = "shorts"; // 🔥 บังคับเลย
 
             }
-                // 🔍 search
-                var search_url = $"https://www.googleapis.com/youtube/v3/search?part=snippet&q={keyword}&maxResults={maxResults}&type=video&key={apiKey}";
+            keyword = $"{keyword}shorts";
+            // 🔍 search
+            var search_url = $"https://www.googleapis.com/youtube/v3/search?part=snippet&q={keyword}&maxResults={maxResults}&type=video&key={apiKey}";
 
-                var searchJson = await _http.GetStringAsync(search_url); // ✅ แก้ตรงนี้
-                var searchDoc = JsonDocument.Parse(searchJson);
+            var searchJson = await _http.GetStringAsync(search_url); // ✅ แก้ตรงนี้
+            var searchDoc = JsonDocument.Parse(searchJson);
 
-                var videoIds = searchDoc.RootElement
-                    .GetProperty("items")
-                    .EnumerateArray()
-                    .Select(x => x.GetProperty("id").TryGetProperty("videoId", out var vid) ? vid.GetString() : null)
-                    .Where(x => x != null)
-                    .ToList();
+            var videoIds = searchDoc.RootElement
+                .GetProperty("items")
+                .EnumerateArray()
+                .Select(x => x.GetProperty("id").TryGetProperty("videoId", out var vid) ? vid.GetString() : null)
+                .Where(x => x != null)
+                .ToList();
 
-                url = $"https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id={string.Join(",", videoIds)}&key={apiKey}";
-            
+            url = $"https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id={string.Join(",", videoIds)}&key={apiKey}";
+
 
             var json = await _http.GetStringAsync(url);
             var doc = JsonDocument.Parse(json);
@@ -188,7 +189,9 @@ namespace SocialViralAI.Services
         }
 
 
-    
+
+
+
         //public async Task<List<Video>> GetVideos()
         //{
         //    var apiKey = _apiKey;

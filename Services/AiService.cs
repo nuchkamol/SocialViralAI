@@ -18,11 +18,11 @@ namespace SocialViralAI.Services
             var apiKey = _apiKey;
 
             var data = JsonSerializer.Serialize(videos);
-
+            var result = "";
             var prompt = $@"
                 คุณเป็น analyst ของช่องข่าว
 
-                วิเคราะห์ข้อมูลนี้ และตอบเป็นรูปแบบ:
+                วิเคราะห์ข้อมูลนี้ (ทั้งภาษาไทยและภาษาอังกฤษ)และตอบเป็นรูปแบบ: 
 
                 📊 Insight:
                 - ...
@@ -49,9 +49,16 @@ namespace SocialViralAI.Services
 
             _http.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
+            try
+            {
+                var response = await _http.PostAsync("https://api.openai.com/v1/chat/completions", httpContent);
+                result = await response.Content.ReadAsStringAsync();
+            }
+            catch (Exception ex) {
+                var test = ex.Message;
+            }
+         
 
-            var response = await _http.PostAsync("https://api.openai.com/v1/chat/completions", httpContent);
-            var result = await response.Content.ReadAsStringAsync();
 
 
 

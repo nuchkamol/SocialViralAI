@@ -52,9 +52,9 @@ public class HomeController : Controller
             shorts[0].IsTop = true;
         }
 
-        //var insight = await _ai.AnalyzeShorts(shorts);
+        var insight = await _ai.Analyze(shorts);
 
-        //ViewBag.Insight = insight;
+        ViewBag.Insight = insight;
 
         return View(shorts);
     }

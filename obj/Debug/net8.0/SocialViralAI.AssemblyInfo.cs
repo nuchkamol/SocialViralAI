@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocialViralAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+147b16b4bfcc6e7eb8971096d115c07c71246495")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocialViralAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocialViralAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,124 @@
+﻿body {
+    margin: 0;
+    background: black;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+/* grid layout */
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+/* card */
+.video-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+    /* ทำให้เป็น 9:16 (แนวตั้ง) */
+    /*.video-card iframe {
+        width: 100%;
+        aspect-ratio: 9 / 16;*/ /* 🔥 ตัวสำคัญ */
+        /*border: none;
+    }*/
+    .video-card iframe {
+        width: 100%;
+        height: 320px; /* 🔥 ปรับจาก 570 → 420 */
+        border-radius: 12px;
+    }
+/* info */
+.video-info {
+    padding: 10px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.views {
+    font-size: 12px;
+    color: gray;
+}
+
+.shorts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.short-card {
+    width: 320px;
+}
+
+    .short-card iframe {
+        width: 100%;
+        height: 570px; /* แนวตั้ง */
+        border-radius: 16px;
+    }
+
+.short-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.shorts-wrapper {
+    width: 100%;
+}
+
+.short-item {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+    .short-item iframe {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.overlay {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    color: white;
+    max-width: 80%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.views {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* 🤖 AI floating box */
+.ai-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 280px;
+    background: rgba(0,0,0,0.85);
+    color: #00ff88;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 12px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}

@@ -7,6 +7,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<YouTubeService>();
 builder.Services.AddHttpClient<AiService>();
+
+System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12 | System.Net.SecurityProtocolType.Tls13;
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

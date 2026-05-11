@@ -1,0 +1,8 @@
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\SocialViralAI.exe
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\wwwroot\css\main.css
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\SocialViralAI.dll
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\SocialViralAI.deps.json
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\SocialViralAI.runtimeconfig.json
+C:\kam\SocialViralAI\obj\Release\net8.0\PubTmp\Out\SocialViralAI.pdb

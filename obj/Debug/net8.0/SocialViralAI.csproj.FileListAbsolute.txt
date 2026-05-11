@@ -28,3 +28,4 @@ C:\kam\SocialViralAI\obj\Debug\net8.0\SocialViralAI.pdb
 C:\kam\SocialViralAI\obj\Debug\net8.0\SocialViralAI.genruntimeconfig.cache
 C:\kam\SocialViralAI\obj\Debug\net8.0\ref\SocialViralAI.dll
 C:\kam\SocialViralAI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\kam\SocialViralAI\obj\Debug\net8.0\SocialViralAI.sourcelink.json

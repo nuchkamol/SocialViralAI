@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\kam\\SocialViralAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\services\\youtubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:services\\aiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\wwwroot\\css\\short.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:wwwroot\\css\\short.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\views\\home\\short.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\wwwroot\\css\\short.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:wwwroot\\css\\short.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\views\\home\\short.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +43,20 @@
       "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|c:\\kam\\socialviralai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AA0AB42-3B2D-41E7-A719-EEBE910582B8}|SocialViralAI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +66,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Short.cshtml",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\Views\\Home\\Short.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Short.cshtml",
               "ToolTip": "C:\\kam\\SocialViralAI\\Views\\Home\\Short.cshtml",
               "RelativeToolTip": "Views\\Home\\Short.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwDAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-10T04:35:21.854Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\kam\\SocialViralAI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\kam\\SocialViralAI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T08:13:05.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\kam\\SocialViralAI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\kam\\SocialViralAI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-11T08:07:17.916Z",
               "EditorCaption": ""
             },
             {
@@ -93,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\Models\\Video.cs",
               "RelativeDocumentMoniker": "Models\\Video.cs",
@@ -106,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "short.css",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\wwwroot\\css\\short.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\short.css",
               "ToolTip": "C:\\kam\\SocialViralAI\\wwwroot\\css\\short.css",
               "RelativeToolTip": "wwwroot\\css\\short.css",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-10T04:40:52.586Z",
               "EditorCaption": ""
@@ -132,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -140,8 +170,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-10T03:40:15.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T03:40:15.698Z"
             },
             {
               "$type": "Document",
@@ -151,33 +180,33 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\main.css",
               "ToolTip": "C:\\kam\\SocialViralAI\\wwwroot\\css\\main.css",
               "RelativeToolTip": "wwwroot\\css\\main.css",
-              "ViewState": "AQIAADQAAAAAAAAAAAAuwDUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-10T03:10:54.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\kam\\SocialViralAI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-09T09:58:30.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AiService.cs",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\Services\\AiService.cs",
               "RelativeDocumentMoniker": "Services\\AiService.cs",
               "ToolTip": "C:\\kam\\SocialViralAI\\Services\\AiService.cs",
               "RelativeToolTip": "Services\\AiService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAUwEEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T09:33:10.051Z",
               "EditorCaption": ""
@@ -190,7 +219,7 @@
               "RelativeDocumentMoniker": "Services\\YouTubeService.cs",
               "ToolTip": "C:\\kam\\SocialViralAI\\Services\\YouTubeService.cs",
               "RelativeToolTip": "Services\\YouTubeService.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAD4v1cAAAAzAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAEwHAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T09:29:32.972Z",
               "EditorCaption": ""
@@ -203,35 +232,23 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\kam\\SocialViralAI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIAwwCkAAAAIAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAADgvykAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T06:47:12.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\kam\\SocialViralAI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\kam\\SocialViralAI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-09T06:43:51.728Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\kam\\SocialViralAI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\kam\\SocialViralAI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T06:43:31.704Z"
             }
           ]
         }
