@@ -1,3 +1,4 @@
+
 # 🚀 SocialViralAI
 
 AI-powered web app for analyzing YouTube video trends and identifying viral content.
@@ -28,7 +29,7 @@ This helps identify trending content faster.
 
 ## 📸 Screenshots
 
-!\[Home](images/home.png)
+![home](https://github.com/user-attachments/assets/ed7a5878-0678-4027-8565-bdcb19de29ca)
 
 ## ⚠️ Note
 
